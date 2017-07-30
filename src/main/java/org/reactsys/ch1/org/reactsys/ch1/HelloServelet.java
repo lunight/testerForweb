@@ -12,7 +12,7 @@ import java.util.Date;
 
 /**
  */
-@WebServlet("/hello")
+@WebServlet("/test2")
 public class HelloServelet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
