@@ -25,7 +25,7 @@ public class HelloServelet extends HttpServlet {
         request.setAttribute("currentTime",currentTime);
 
 
-        request.getRequestDispatcher("/WEB-INF/jsp/hello.jsp").forward(request,response);
+        request.getRequestDispatcher("/WEB-INF/jsp/test2.jsp").forward(request,response);
     }
 
 }
